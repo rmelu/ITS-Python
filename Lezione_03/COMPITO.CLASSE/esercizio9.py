@@ -1,3 +1,4 @@
+
 #Definisco le approssimazione di pi da raggingere
 pi_3_14 = 3.14
 Pi_3_141 = 3.141
@@ -53,4 +54,4 @@ print(f"Termini necessari per pi = 3.14159: {termini_3_14159}")
 
 
 
-
+#forze ce un errore di logica!

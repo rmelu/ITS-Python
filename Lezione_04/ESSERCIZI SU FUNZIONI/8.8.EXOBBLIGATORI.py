@@ -1,4 +1,4 @@
-def make_album(artist_name, album_title, num_tracks=None):
+def make_album(artist_name, album_title, num_tracks=None): #le funzioni devono avere una singola responsabilita 
 #COSTRUSCE UN DIZIONARIO CHE DESCRIVE UN ALBUM MUSICALE
     album = {
         'artist': artist_name,
