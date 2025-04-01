@@ -1,3 +1,4 @@
+#PRIMO TENTATIVO 
 class Impiegato:
     def __init__(self, nome, cognome, data_nascita,stipendio, altro=None):
         self.nome = nome
