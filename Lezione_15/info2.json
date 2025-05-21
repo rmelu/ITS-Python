@@ -1,0 +1,22 @@
+codice_fiscale:
+dati_persona = {
+	"Ryeyw63748GL904730",
+	"nome": "Sara",
+	"cognome": "Verde",
+	"data_nascita": "2008-03-10",
+	"citta": "Roma"
+}
+
+
+PATH: str = "config.json"
+mode: str = "r"
+
+with open(PATH, mode=mode) as file:
+    config = json.load(file)
+    print(mio_dizionario)
+
+config["nome"] = "Flavio"
+
+with open(PATH, mode="w") as file:
+
+    json.dump(config, file, indent=4)

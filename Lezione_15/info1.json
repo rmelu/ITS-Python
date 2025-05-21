@@ -1,0 +1,8 @@
+codice_fiscale:
+dati_persona = {
+	"RSSUIJKFKGL904730",
+	"nome": "Giovanni",
+	"cognome": "Rossi",
+	"data_nascita": "2001-01-01",
+	"citta": "Roma"
+}

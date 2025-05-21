@@ -3,6 +3,7 @@ def vowelsCounters(s : str)-> str:
         return 0
     else:
         prima_lettera = s[0].lower()
+        
         if prima_lettera  in 'aeiou':    #aeiou serve per determinare se una letter è vocale o meno!!!!!
             return 1 + vowelsCounters(s[1:])
         else:

@@ -1,4 +1,5 @@
 import random
+print("BANG!!!! AND THEY'RE OFF !!!!")
 def mossa_tartaruga():
     #calcola la mossa della tattaruga
     i = random.randint(1, 10)
@@ -25,13 +26,13 @@ def mossa_lepre():
     
 def visualizza_corsa(tartaruga_pos, lepre_pos):
     #visualizza la corsa sulla corsia
-    corsa = ['_'] * 70
+    corsa = ['-'] * 70
     if tartaruga_pos == lepre_pos:
-        corsa[tartaruga_pos - 1] = 'OUCH!!!'
+         corsa[tartaruga_pos - 1] = 'OUCH!!!'
     else:
         corsa[tartaruga_pos - 1] = 'T'
         corsa[lepre_pos - 1] = 'H'
-    print(''.join(corsa))
+        print(''.join(corsa))
 
 #simula la gara tra la tarttaruga e la lepre.
 tartaruga_pos = 1
