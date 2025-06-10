@@ -20,7 +20,7 @@ def ricerca_binaria(lista: List[int], numero: int) -> bool:
             destra = centro - 1
             
     return False
-print(ricerca_binaria([1, 2, 3, 4, 5], 3))  # True 
+print(ricerca_binaria([1, 2, 3, 4, 5], 3))  # True
 print(ricerca_binaria([1, 2, 3, 4, 5], 6))  # False
 print(ricerca_binaria([10, 20, 30, 40, 50], 25))  # False
 print(ricerca_binaria([10, 20, 30, 40, 50], 30))  # True
@@ -29,3 +29,5 @@ print(ricerca_binaria([5], 5))  # True
 print(ricerca_binaria([5], 10))  # False
 print(ricerca_binaria([1, 3, 5, 7, 9], 1))  # True
 print(ricerca_binaria([1, 3, 5, 7, 9], 2))  # False
+
+

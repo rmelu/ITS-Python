@@ -1,6 +1,6 @@
 from string import ascii_lowercase, ascii_uppercase
 
-def cifrario_di_cesare(mess, chiav):
+def cifrario_di_cesare(s: str, k: int):
     """
     cifra il messaggio utilizzando ul cifrario di cesare
     :param mess: il messaggio da cifrare
@@ -8,9 +8,9 @@ def cifrario_di_cesare(mess, chiav):
     :return: il messaggio cifrato
     """
     cifrato = ""
-    for char in mess:
+    for char in s:
         if char.isalpha():
-            shift = chiav % 26
+            shift = k % 26
             if char.islower():
                 base = ord('a')
             else:

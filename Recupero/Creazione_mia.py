@@ -15,14 +15,6 @@ for i in range(170):
 done()'''
 
 
-
-
-
-
-
-
-
-
 from turtle import *
 
 speed(-100)
